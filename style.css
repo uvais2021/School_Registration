@@ -1,0 +1,322 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+
+.formContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 170vh;
+    
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+  
+    background-color: rgb(190, 194, 193);
+    height: 200vh;
+}
+
+.form-controlm {
+    display: flex;
+
+}
+
+.form-control small {
+    visibility: hidden;
+    font-size: 16px;
+    margin: 10px 0;
+    position: relative;
+    color: red;
+}
+
+.error small {
+    visibility: visible;
+    margin: 10px 0;
+}
+
+#male,
+#female {
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 550px;
+    /* margin: 10px 0; */
+
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    width: 550px;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+.form-control label {
+    font-size: 18px;
+    padding: 15px 0;
+    color: rgb(31, 11, 11);
+    font-weight: 800;
+    text-align: left;
+    /* margin-top: 100000px; */
+}
+
+.form-control-2 .form-control label {
+    font-size: 18px;
+    padding: 15px 0;
+    color: rgb(31, 11, 11);
+    font-weight: 800;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+.form-control-2 label {
+    font-size: 18px;
+    color: rgb(31, 11, 11);
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.form-control-2 p {
+    font-weight: 100;
+    margin-left: 5px;
+}
+
+.form-controlm p {
+    font-weight: 100;
+}
+
+
+
+.interest input[type='checkbox'] {
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    padding: 0 10px;
+    display: inline-block;
+    width: auto;
+    margin: 10px 10px 10px 10px;
+}
+
+.btn {
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(119, 110, 115);
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(117, 162, 147);
+    transition: 1s;
+
+}
+
+span {
+    color: red;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+#for {
+    font-size: 16px;
+    visibility: visible;
+    font-weight: 100;
+    color: black;
+
+}
+
+
+.form-control-2 label {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.btnContainer {
+    text-align: center;
+}
+
+.form-controlm label {
+    margin: 0;
+    padding: 0;
+}
+
+.error input {
+    border: 2px solid red;
+    border-color: red;
+}
+
+.success input {
+    border: 2px solid rgb(21, 255, 0);
+    border-color:rgb(21, 255, 0) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:567px) {
+
+    #male,
+    #female {
+        font-size: 10px;
+    }
+body{
+    margin-top: 350px;
+    height: 200vh;
+}
+    .formContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 150vh;
+        margin-top: 230px;
+    }
+
+    .form-control input,
+    .form-control select,
+    .form-control textarea {
+        border: 1px solid #777;
+        border-radius: 2px;
+        font-family: inherit;
+        display: block;
+        width: 300px;
+        height: 35px;
+        /* border-radius: 5px; */
+        /* border: none; */
+        font-size: 16px;
+        padding: 0px 10px;
+        margin-top: 10px;
+    }
+
+    .form-control input[type="radio"],
+    .form-control input[type="checkbox"] {
+        display: inline-block;
+        width: 10px;
+    }
+
+    .form-control label {
+        font-size: 16px;
+        padding: 15px 0;
+        color: rgb(31, 11, 11);
+        font-weight: 800;
+    }
+
+    .form-control-2 .form-control label {
+        font-size: 16px;
+        padding: 15px 0;
+        color: rgb(31, 11, 11);
+        font-weight: 800;
+        text-align: left;
+        margin-top: 10px;
+        font-weight: 800;
+    }
+
+    .form-controlm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        width: 200px;
+    }
+
+    .form-controlm label {
+        margin: 0 5px;
+    }
+
+    .form-controlm label {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .form-control {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .labelLeft {
+        display: flex;
+        align-items: start;
+        text-align: left;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .labelLeftG {
+        display: flex;
+        align-items: start;
+        text-align: left;
+        width: 10%;
+        margin-left: 700px;
+    }
+    .error input,select{
+        border: 2px solid red;
+        border-color: red;
+        border-radius: 5px;
+    }
+    
+    .success input ,select{
+        border: 2px solid rgb(21, 255, 0);
+        border-color:rgb(21, 255, 0) ;
+        border-radius: 5px;
+    }
+    
+}
