@@ -20,6 +20,11 @@ const form = document.getElementById('form');
 var a = 0;
 const result = document.getElementById('result');
 var radioBtn;
+
+let inputForAll = document.querySelectorAll('input'); 
+inputForAll.forEach(input => { 
+    input.addEventListener('input', checkInputs); 
+});
 form.addEventListener('submit', e => {
     e.preventDefault();
     checkInputs()
